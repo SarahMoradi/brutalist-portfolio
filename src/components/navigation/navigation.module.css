@@ -1,0 +1,67 @@
+.main_navigation {
+  margin-top: 4rem;
+  width: 100%;
+  border: 3px solid black;
+}
+.main_navigation nav ul {
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  border-top: 3px solid black;
+}
+.header_navigation {
+  padding: 2rem;
+  font-size: 2rem;
+  font-weight: bolder;
+  width: inherit;
+  margin: 0;
+  background-color: #a7dbd8;
+}
+.main_navigation ul div {
+  display: flex;
+  list-style-type: none;
+}
+.main_navigation ul div li {
+  cursor: pointer;
+  padding: 1.5rem;
+}
+.auth_navigation_container :nth-child(2) {
+  background-color: black;
+  color: #fff;
+  padding: 20px;
+}
+.joinus_menu_option {
+  border-left: 3px solid black;
+  background-color: #fdfd96;
+}
+.donate_menu_option {
+  background-color: black;
+  color: #fff;
+}
+.aboutus_menu_option:hover {
+  background-color: #f7d6b3;
+  border-right: 3px solid black;
+}
+.aboutus_menu_option {
+  border-right: 3px solid #fff;
+}
+.exprinece_menu_option {
+  border-right: 3px solid #fff;
+  border-left: 3px solid #fff;
+}
+.exprinece_menu_option:hover {
+  background-color: #ff9f7a;
+  border-right: 3px solid black;
+  border-left: 3px solid black;
+}
+.resume_menu_option {
+  border-right: 3px solid #fff;
+  border-left: 3px solid #fff;
+}
+.resume_menu_option:hover {
+  background-color: #fe7a5b;
+  border-right: 3px solid black;
+  border-left: 3px solid black;
+}
