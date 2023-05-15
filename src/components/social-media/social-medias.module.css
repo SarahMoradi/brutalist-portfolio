@@ -1,0 +1,42 @@
+.social_medias_container {
+  border: 3px solid black;
+  border-top: none;
+  padding: 1rem;
+  width: 50%;
+  background-color: #daf5f0;
+}
+.social_medias_container h1 {
+  margin: 0;
+  padding: 0;
+  padding: 2rem;
+}
+.social_icons_container {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.logo_container {
+  width: 40%;
+  margin: 5px 0;
+  display: flex;
+  align-items: center;
+  padding: 10px;
+}
+.logo_container img {
+  border: 3px solid black;
+  padding: 15px;
+  background-color: #fff;
+  box-shadow: black 0px 0px 0px 0px inset, #000 5px -5px 0px -3px, #a388ed 10px -10px 0px -3px;
+}
+.logo_container img:hover {
+  cursor: pointer;
+  background-color: #90ee8f;
+}
+.logo_container:nth-child(1) {
+  justify-content: flex-end;
+}
+.logo_container:nth-child(3) {
+  justify-content: flex-end;
+}
