@@ -1,0 +1,12 @@
+.education_container {
+  width: 50%;
+  border: 3px solid black;
+  border-top: none;
+  border-left: none;
+  padding: 1rem;
+}
+.education_container h1 {
+  margin: 0;
+  padding: 0;
+  padding: 2rem;
+}

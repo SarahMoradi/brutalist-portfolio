@@ -3,6 +3,7 @@ import Gmail from '../../assets/images/social-medias/gmail.svg'
 import Github from '../../assets/images/social-medias/github.svg'
 import Instagram from '../../assets/images/social-medias/instagram.svg'
 import Linkedin from '../../assets/images/social-medias/linkedin.svg'
+import Education from '../education/Education'
 
 const SocialMedias = () => {
   const socialDetails = [
@@ -24,22 +25,25 @@ const SocialMedias = () => {
     },
   ]
   return (
-    <div className={classes.social_medias_container}>
-      <div>
-        <h1>Social Medias</h1>
+    <>
+      <div className={classes.social_medias_container}>
+        <div>
+          <h1>Social Medias</h1>
+        </div>
+        <div className={classes.social_icons_container}>
+          {socialDetails.map((data) => {
+            return (
+              <div className={classes.logo_container}>
+                <a href={data.link}>
+                  <img src={data.icon} width={50} />
+                </a>
+              </div>
+            )
+          })}
+        </div>
       </div>
-      <div className={classes.social_icons_container}>
-        {socialDetails.map((data) => {
-          return (
-            <div className={classes.logo_container}>
-              <a href={data.link}>
-                <img src={data.icon} width={50} />
-              </a>
-            </div>
-          )
-        })}
-      </div>
-    </div>
+      
+    </>
   )
 }
 export default SocialMedias
