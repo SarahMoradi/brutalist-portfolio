@@ -8,7 +8,7 @@ const Navigation = () => {
         >{`Sarah Moradi, A Creative Frontend Developer/>`}</h1>
         <ul>
           <div>
-            <li className={classes.aboutus_menu_option}>About</li>
+            <li className={classes.aboutus_menu_option}>About Me</li>
             <li className={classes.exprinece_menu_option}>Exprience</li>
             <li className={classes.resume_menu_option}>Resume</li>
           </div>
