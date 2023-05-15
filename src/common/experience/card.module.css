@@ -1,0 +1,25 @@
+.cart_container {
+  display: flex;
+}
+.cart {
+  border: 3px solid black;
+  width: 300px;
+  margin: 0 1rem;
+  padding: 1.5rem;
+  box-shadow: black 0px 0px 0px 0px inset, #000 10px -10px 0px -3px;
+}
+.cart_header_container {
+  display: flex;
+}
+.tech_container {
+  margin-top: 1.5rem;
+}
+.logo_container {
+  background-color: #000;
+  border-radius: 3px;
+  overflow: hidden;
+  height: 50px;
+  padding: 10px;
+  margin: 0 10px 0 0;
+  
+}
