@@ -10,3 +10,19 @@
   padding: 0;
   padding: 2rem;
 }
+.course_container {
+  display: flex;
+  align-items: center;
+  margin: 10px 0;
+}
+h4,
+p {
+  margin: 0;
+  padding: 4px;
+}
+
+.course_container div img{
+  margin: 0;
+  padding: 0;
+  margin: 10px 20px 0 30px;
+}
