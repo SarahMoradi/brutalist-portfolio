@@ -1,5 +1,6 @@
 .cart_container {
   display: flex;
+  margin-bottom: 1rem;
 }
 .cart {
   border: 3px solid black;

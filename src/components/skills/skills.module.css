@@ -1,0 +1,31 @@
+.skills_container {
+  border: 3px solid black;
+  border-top: none;
+  padding: 1rem;
+}
+.skills_container h1 {
+  margin: 0;
+  padding: 0;
+  padding: 2rem;
+}
+.skill_carts_container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+  width: 100%;
+  margin-bottom: 2rem;
+}
+.skill_cart {
+  border: 3px solid black;
+  width: 120px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 31% 69% 30% 70% / 62% 33% 67% 38%;
+  box-shadow: black 0px 0px 0px 0px inset, #7EBB8C 8px -5px 0px -3px, #000 12px -7px 0px -3px;
+}
+.skill_cart img {
+  margin: 20px 20px 0 20px;
+}

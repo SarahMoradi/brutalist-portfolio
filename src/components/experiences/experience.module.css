@@ -2,8 +2,6 @@
   border: 3px solid black;
   border-top: none;
   display: flex;
-  justify-content: flex-start;
-  align-items: flex-start;
   flex-direction: column;
   padding: 1rem;
 }

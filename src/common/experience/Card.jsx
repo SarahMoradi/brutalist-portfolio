@@ -1,12 +1,12 @@
 import classes from './card.module.css'
 
 const Card = ({props}) => {
-
   return (
     <div className={classes.cart_container}>
       {props.map((experience) => {
         return (
           <div className={classes.cart}>
+            <h3>{`Frontend Developer/>`}</h3>
             <div className={classes.cart_header_container}>
               <div className={classes.logo_container}>
                 <img src={experience.image} width={100} />
