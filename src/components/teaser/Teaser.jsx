@@ -1,5 +1,5 @@
 import classes from './teaser.module.css'
-import profile from '../../assets/images/profile.png'
+import profile from '../../assets/images/profile-pic.png'
 
 const Teaser = () => {
   return (

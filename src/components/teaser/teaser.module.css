@@ -42,16 +42,17 @@
   margin-top: 0;
 }
 .profile_container img {
-  width: 240px;
-  height: 240px;
+  width: 280px;
+  height: 280px;
   border-radius: 40%;
+  margin-right: 2px;
   margin-top: 10px;
-  margin-right: 70px;
 }
 .profile_background_container {
   border-radius: 45% 55% 65% 35% / 62% 33% 67% 38%;
-  background-color: #fcff76;
-  height: 250px;
+  background-color: #fff;
+  height: 270px;
   border: 3px solid black;
   z-index: 10;
+  overflow: hidden;
 }
