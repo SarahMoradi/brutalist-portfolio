@@ -1,4 +1,5 @@
 import React, {Fragment} from 'react'
+import classes from './homepage.module.css'
 import Teaser from '../../components/teaser/Teaser'
 import Experiences from '../../components/experiences/Experiences'
 import Skills from '../../components/skills/Skills'
@@ -12,11 +13,12 @@ const Home = () => {
       <Teaser />
       <Skills />
       <Experiences />
-      <div style={{display: 'flex'}}>
+      <div className={classes.divided_section}>
         <SocialMedias />
         <Education />
       </div>
       <Certificates />
+      
     </Fragment>
   )
 }
