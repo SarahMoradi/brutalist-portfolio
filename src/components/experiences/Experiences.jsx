@@ -4,7 +4,7 @@ import classes from './experience.module.css'
 
 const Experiences = () => {
   return (
-    <div className={classes.experience_container}>
+    <div className={classes.experience_container} id='experience'>
       <div>
         <h1>Experiences</h1>
       </div>

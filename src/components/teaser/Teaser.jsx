@@ -3,7 +3,7 @@ import profile from '../../assets/images/profile-pic.png'
 
 const Teaser = () => {
   return (
-    <div className={classes.teaser_container}>
+    <div className={classes.teaser_container} id='aboutme'>
       <div className={classes.description_container}>
         <h1>About me</h1>
         <p>

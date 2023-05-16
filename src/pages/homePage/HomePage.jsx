@@ -6,6 +6,7 @@ import Skills from '../../components/skills/Skills'
 import SocialMedias from '../../components/social-media/SocialMedias'
 import Education from '../../components/education/Education'
 import Certificates from '../../components/certificates/Certificates'
+import Footer from '../../components/footer/Footer'
 
 const Home = () => {
   return (
@@ -17,8 +18,8 @@ const Home = () => {
         <SocialMedias />
         <Education />
       </div>
-      <Certificates />
-      
+      <Certificates  />
+      <Footer />
     </Fragment>
   )
 }

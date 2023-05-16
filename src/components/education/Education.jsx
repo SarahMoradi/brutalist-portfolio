@@ -4,7 +4,7 @@ import institute from '../../assets/images/avaye-elm.jpg'
 
 const Education = () => {
   return (
-    <div className={classes.education_container}>
+    <div className={classes.education_container} id='education'>
       <div>
         <h1>Education</h1>
       </div>

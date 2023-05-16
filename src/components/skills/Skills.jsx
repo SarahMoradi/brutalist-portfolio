@@ -3,7 +3,7 @@ import {logos} from './data'
 
 const Skills = () => {
   return (
-    <div className={classes.skills_container}>
+    <div className={classes.skills_container} id='skills'>
       <div>
         <h1>Skills</h1>
       </div>

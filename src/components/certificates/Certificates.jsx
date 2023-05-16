@@ -41,7 +41,7 @@ const Certificates = () => {
     },
   ]
   return (
-    <div className={classes.certificates_container}>
+    <div className={classes.certificates_container} id='certificates'>
       <div>
         <h1>Certificates</h1>
       </div>

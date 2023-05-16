@@ -26,9 +26,9 @@ const SocialMedias = () => {
   ]
   return (
     <>
-      <div className={classes.social_medias_container}>
+      <div className={classes.social_medias_container} id='contact'>
         <div>
-          <h1>Social Medias</h1>
+          <h1>Contact</h1>
         </div>
         <div className={classes.social_icons_container}>
           {socialDetails.map((data) => {
@@ -42,7 +42,6 @@ const SocialMedias = () => {
           })}
         </div>
       </div>
-      
     </>
   )
 }
