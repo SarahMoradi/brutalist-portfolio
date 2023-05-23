@@ -5,6 +5,13 @@
   border-left: none;
   padding: 1rem;
 }
+@media screen and (max-width: 768px) {
+  .education_container {
+    width: 98.4%;
+    padding: 0 !important;
+    border-left: 3px solid black;
+  }
+}
 .education_container h1 {
   margin: 0;
   padding: 0;
@@ -21,7 +28,7 @@ p {
   padding: 4px;
 }
 
-.course_container div img{
+.course_container div img {
   margin: 0;
   padding: 0;
   margin: 10px 20px 0 30px;

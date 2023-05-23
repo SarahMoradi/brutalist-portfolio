@@ -15,8 +15,8 @@ const Home = () => {
       <Skills />
       <Experiences />
       <div className={classes.divided_section}>
-        {/* <SocialMedias /> */}
-        {/* <Education /> */}
+        <SocialMedias />
+        <Education />
       </div>
       {/* <Certificates /> */}
       <Footer />

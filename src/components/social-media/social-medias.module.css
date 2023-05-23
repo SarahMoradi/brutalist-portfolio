@@ -5,6 +5,12 @@
   width: 50%;
   background-color: #daf5f0;
 }
+@media screen and (max-width: 768px) {
+  .social_medias_container {
+    width: 98.4%;
+    padding: 0 !important;
+  }
+}
 .social_medias_container h1 {
   margin: 0;
   padding: 0;
