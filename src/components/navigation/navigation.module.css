@@ -17,6 +17,13 @@
   margin: 0;
   background-color: #a7dbd8;
 }
+.header_navigation div {
+  display: flex;
+  justify-content: space-between;
+}
+.header_navigation div p {
+  font-size: 20px;
+}
 .main_navigation ul div {
   display: flex;
   list-style-type: none;
@@ -84,4 +91,10 @@ a {
   background-color: #c3a0ff;
   border-right: 3px solid black;
   border-left: 3px solid black;
+}
+
+@media screen and (max-width: 768px) {
+  .header_navigation {
+    padding: 1rem;
+  }
 }

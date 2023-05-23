@@ -1,4 +1,9 @@
 .layout_container {
   background-color: #fff;
-    margin: 4rem 0;
+  margin: 4rem 0;
+}
+@media screen and (max-width: 768px) {
+  .layout_container {
+    margin: 1rem 0;
+  }
 }

@@ -4,7 +4,7 @@ import Home from './pages/homePage/HomePage'
 
 function App() {
   return (
-    <Layout>
+    <Layout id="page-wrap">
       <Home />
     </Layout>
   )

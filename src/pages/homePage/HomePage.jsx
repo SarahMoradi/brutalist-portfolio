@@ -11,7 +11,7 @@ import Footer from '../../components/footer/Footer'
 const Home = () => {
   return (
     <Fragment>
-      <Teaser />
+      {/* <Teaser />
       <Skills />
       <Experiences />
       <div className={classes.divided_section}>
@@ -19,7 +19,7 @@ const Home = () => {
         <Education />
       </div>
       <Certificates  />
-      <Footer />
+      <Footer /> */}
     </Fragment>
   )
 }
