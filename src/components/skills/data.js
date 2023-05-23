@@ -1,6 +1,6 @@
 import HTML from '../../assets/images/skills/html.svg'
 import CSS from '../../assets/images/skills/css.svg'
-import JavaScript from '../../assets/images/skills/JavaScript.svg'
+import JavaScript from '../../assets/images/skills/javascript.svg'
 import TypeScript from '../../assets/images/skills/typescript.svg'
 import ReactJS from '../../assets/images/skills/react.svg'
 import Redux from '../../assets/images/skills/redux.svg'
