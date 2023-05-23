@@ -18,7 +18,7 @@ const Home = () => {
         <SocialMedias />
         <Education />
       </div>
-      {/* <Certificates /> */}
+      <Certificates />
       <Footer />
     </Fragment>
   )

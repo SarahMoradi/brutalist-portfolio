@@ -7,8 +7,14 @@ import Fundamental from '../../assets/images/certificates/fundamental.png'
 import Responsive from '../../assets/images/certificates/responsive.png'
 import ReactJS from '../../assets/images/certificates/react.png'
 import MetaIntroduction from '../../assets/images/certificates/introduction.jpg'
+import {useMediaQuery} from 'react-responsive'
 
 const Certificates = () => {
+  const isDesktopOrLaptop = useMediaQuery({
+    query: '(min-width: 1077px)',
+  })
+  const isTablet = useMediaQuery({maxWidth: 1076})
+
   const certificatesList = [
     {
       icon: HTML,
@@ -45,18 +51,28 @@ const Certificates = () => {
       <div>
         <h1>Certificates</h1>
       </div>
-      <div className={classes.image_container}>
-        <div className={classes.shape_container}></div>
-        <Carousel>
-          {certificatesList.map((certificate) => {
-            return (
-              <div style={{border: '3px solid black'}}>
-                <img src={certificate.icon} />
-              </div>
-            )
-          })}
-        </Carousel>
-      </div>
+      {isDesktopOrLaptop && (
+        <div className={classes.image_container}>
+          <div className={classes.shape_container}></div>
+          <Carousel>
+            {certificatesList.map((certificate) => {
+              return (
+                <div style={{border: '3px solid black'}}>
+                  <img src={certificate.icon} />
+                </div>
+              )
+            })}
+          </Carousel>
+        </div>
+      )}
+      {isTablet &&
+        certificatesList.map((certificate) => {
+          return (
+            <div style={{border: '3px solid black'}}>
+              <img src={certificate.icon} />
+            </div>
+          )
+        })}
     </div>
   )
 }

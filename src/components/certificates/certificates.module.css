@@ -2,8 +2,15 @@
   border: 3px solid black;
   border-top: none;
   display: flex;
-  /* flex-direction: column; */
   padding: 1rem;
+}
+@media screen and (max-width: 1076px) {
+  .certificates_container {
+    flex-direction: column;
+  }
+  .certificates_container img {
+    width: 100%;
+  }
 }
 .certificates_container h1 {
   padding: 0;
