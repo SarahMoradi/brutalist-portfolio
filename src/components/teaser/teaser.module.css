@@ -3,6 +3,48 @@
   border: 3px solid black;
   border-top: none;
 }
+@media screen and (max-width: 1060px) {
+  .teaser_container {
+    flex-direction: column;
+  }
+  .teaser_container div:nth-child(1) {
+    width: 100% !important;
+    order: 2;
+  }
+  .description_container {
+    padding: 0 !important;
+  }
+  .description_container h1 {
+    padding: 1rem 2rem 0 2rem;
+  }
+  .description_container p {
+    padding: 0 2rem 1rem !important;
+  }
+  .teaser_container div:nth-child(2) {
+    order: 1 !important;
+  }
+  .profile_container {
+    width: 100% !important;
+    display: flex;
+    height: 340px;
+    border-bottom: 3px solid black;
+  }
+  .profile_background_container {
+    margin: 10rem;
+    overflow: visible !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .profile_background_container img {
+    margin-top: -19px !important;
+    margin-left: -40px !important;
+  }
+
+  .greet_container {
+    padding: 5rem;
+  }
+}
 .teaser_container div {
   width: 50%;
 }

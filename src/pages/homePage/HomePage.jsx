@@ -11,15 +11,15 @@ import Footer from '../../components/footer/Footer'
 const Home = () => {
   return (
     <Fragment>
-      {/* <Teaser />
+      <Teaser />
       <Skills />
-      <Experiences />
+      {/* <Experiences /> */}
       <div className={classes.divided_section}>
-        <SocialMedias />
-        <Education />
+        {/* <SocialMedias /> */}
+        {/* <Education /> */}
       </div>
-      <Certificates  />
-      <Footer /> */}
+      {/* <Certificates /> */}
+      <Footer />
     </Fragment>
   )
 }
