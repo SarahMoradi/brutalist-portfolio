@@ -11,6 +11,17 @@
   box-shadow: black 0px 0px 0px 0px inset, #000 10px -10px 0px -3px;
   background-color: #fff;
 }
+@media screen and (max-width: 860px){
+  .cart_container{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .cart{
+    margin: .8rem 0 !important;
+    padding: .8rem !important;
+  }
+}
 .cart_header_container {
   display: flex;
 }

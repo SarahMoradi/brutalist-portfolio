@@ -13,7 +13,7 @@ const Home = () => {
     <Fragment>
       <Teaser />
       <Skills />
-      {/* <Experiences /> */}
+      <Experiences />
       <div className={classes.divided_section}>
         {/* <SocialMedias /> */}
         {/* <Education /> */}
